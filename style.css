@@ -1,0 +1,25 @@
+/*Child Selector*/
+p{
+    font-size: 25;
+}
+/*Sibling Selectors*/
+h3+p{
+ font-family:sans serif;
+ color: rgb(157, 241, 181);
+}
+/*psuedo elements*/
+ul li:hover{
+    font-size: 35px;
+}
+p::first-letter{
+    font-size: 40px;
+}
+/*Child Selector*/
+h3{
+    font-size: 40;
+    color: orange;
+}
+/*Child Selector*/
+h1{
+    font-size: 70;
+}
